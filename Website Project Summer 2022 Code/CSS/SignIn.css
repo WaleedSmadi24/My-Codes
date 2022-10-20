@@ -1,0 +1,120 @@
+*{margin:0;
+padding:0;
+}
+
+.Grid{
+    color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.SignFormGrid{
+    background-color: rgb(252, 215, 169);
+    text-align: center;
+    
+}
+
+.SignInForm{
+    margin-top: 35%;
+}
+
+.PhotoGrid{
+    background-color: black;
+    margin-left: 32%;
+    margin-top: 27%;
+}
+
+.uname{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.pass{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.SignInButton{
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 5%;
+}
+
+/* .uname{
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 10px;
+}
+.SignInForm .unamelabel{
+    position: absolute;
+    top: 482px;
+    left: 400px;
+    color: black;
+    font-size: 15px;
+    transition: top .3s;
+    background-color: rgb(252, 215, 169) ;
+    padding: 0 5px;
+}
+
+.SignInForm .uname:focus ~ .unamelabel{
+    top: 460px;
+}
+    
+
+.pass{
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 10px;
+}
+
+.SignInForm .passlabel{
+        position: absolute;
+        top: 533px;
+        left: 400px;
+        color: black;
+        font-size: 15px;
+        transition: top .3s;
+        background-color: rgb(252, 215, 169) ;
+        padding: 0 5px;
+        
+}
+
+.SignInForm .pass:focus ~ .passlabel{
+    top: 511px;
+} */
+
+@media (max-width:500px){
+    .Grid{
+        display: contents;
+    }
+    .PhotoGrid{
+        background-color: black;
+    }
+    .LogoPhoto{
+        margin-bottom: 50%;
+    }
+    .SignFormGrid{
+        background-color: rgb(252, 215, 169);
+        margin-left: 3%;
+        width: 100%;
+    }
+    
+    .SignInForm{
+        margin-top: 80%;
+    }
+
+    
+}

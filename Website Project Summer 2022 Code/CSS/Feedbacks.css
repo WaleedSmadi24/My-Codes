@@ -1,0 +1,205 @@
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(252, 215, 169);
+    text-align: center;
+}
+
+/* Header CSS Code */
+nav{
+    display: flex;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.LogoPhoto{
+    width:250px;
+    height:250px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+.NavBar{
+    margin-left: 10%;
+    margin-top: 6%;
+}
+.RegBar{
+    margin-top: 6%;
+    margin-left: 30%;
+}
+
+.link{
+    color: rgb(252, 215, 169);
+    padding: 1rem;
+    margin-left: .5rem;
+    font: 600;
+}
+/* End of Header CSS Code */
+
+
+h2{
+    color: rgb(252, 215, 169);
+    text-align: center;
+}
+h3{
+    color: rgb(252, 215, 169);
+    text-align: center;
+}
+label{
+    color: rgb(252, 215, 169);
+    text-align: center;
+}
+span{
+    color: rgb(252, 215, 169);
+    text-align: center;
+}
+link{
+    color: rgb(252, 215, 169);
+    text-align: center;
+}
+textarea{
+    color: white;
+    text-align: center;
+}
+select{
+    text-align: center;
+}
+button{
+    background-color: white;
+    border-radius: 5%;
+    font-size: 17px;
+    padding: 15px 25px;
+    text-align: center;
+}
+.checked{
+    color: yellow
+}
+.FeedbackCAT{
+    background-color: white;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', sans-serif;
+    width: 200px;
+    height: 30px;
+    border-radius: 5%;
+}
+.FeedbackTEXT{
+    background-color: white;
+    color: black;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    width: 350px;
+    height: 100px;
+}
+
+/* Footer CSS Code */
+footer{
+    color: rgb(252, 215, 169);
+    display: flex;
+    justify-content: space-around;
+    margin-left: 13%;
+}
+.FooterAbout{
+    margin-top: 1%;
+}
+.FooterCategories{
+    margin-top: 1%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+footer a {
+    color: rgb(252, 215, 169);
+    font-weight: 300;
+    font-size: 17px;
+}
+.FooterContact{
+    margin-top: 1%;
+    margin-right: 20%;
+}
+/* End Of Footer CSS Code */
+
+/* CopyRight CSS Code */
+.CopyRight{
+    color: rgb(252, 215, 169) ;
+    text-align: center;
+}
+
+@media (max-width: 500px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        font-size: 10px;
+    }
+    .LogoPhoto{
+        height: 100px;
+        width: 100px;
+    }
+    
+    h2{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 10px;
+    }
+    nav{
+        font-size: 10px;
+    }
+    .About20{
+        font-size: 10px;
+    }
+    .FooterCategories{
+        font-size: 10px;
+    }
+    .afooter{
+        font-size: 10px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .NavBar{
+        display: flex;
+    }
+
+    
+
+    .FeedbackCAT{
+        background-color: white;
+        font-size: 5px;
+        font-family: 'Trebuchet MS', sans-serif;
+        width: 100px;
+        height: 15px;
+        border-radius: 5%;
+    }
+    .FeedbackTEXT{
+        background-color: white;
+        color: black;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 5px;
+        width: 125px;
+        height: 50px;
+    }
+    button{
+        background-color: white;
+        border-radius: 5%;
+        font-size: 5px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    nav,.RegBar,.NavBar{
+        display: flex;
+        flex-direction:column;
+        width:50%;
+        margin: auto;
+    }
+    nav{
+        border-bottom: 1px solid white;
+    }
+    h2{
+        margin-top: 1rem;
+    }
+}

@@ -1,0 +1,104 @@
+h3{
+    font-family: 'Trebuchet MS', sans-serif;
+    color: black;
+}
+h4{
+    font-family: 'Trebuchet MS', sans-serif;
+    color: black;
+}
+form{
+    text-align: center;
+}
+img{
+    text-align: center;
+}
+nav{
+    position: static;
+    overflow: hidden;
+}
+body{
+    text-align: center;
+}
+
+.top,
+.bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 50%;
+}
+
+.top {
+    top: 0;
+  
+}
+
+.bottom {
+    bottom: 0;
+    background-color: rgb(252, 215, 169);
+}
+
+.Logo{
+    position: relative;
+    margin-top: 5%;
+}
+
+.SignUpForm{
+    margin-top: 2%;
+}
+
+.username{
+    width: 200px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.gender{
+    height: 29px;
+    width: 85px;
+    border-radius: 3px;
+}
+.DOB{
+    height: 25px;
+    border-radius: 3px;
+}
+
+.email{
+    width: 200px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.pass{
+    height: 20px;
+    border-radius: 3px;
+}
+.repass{
+    height: 20px;
+    border-radius: 3px;
+}
+
+.SignUpButton{
+    /*background-color: rgb(227, 167, 93);*/
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 5%;
+}
+
+/* .SignUpButton:hover{
+    color: rgb(227, 167, 93);
+} */
+@media (max-width:500px) {
+    .top{
+        margin-top: 20%;
+    }
+    .Logo{
+        width: 100%;
+    } 
+}
+
+@media (max-width:850px){
+    .top{
+        margin-top: 15%;
+    }
+}

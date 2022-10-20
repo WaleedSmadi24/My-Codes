@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.MainMenu {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.MainMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.0em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 150px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.MainMenu a:hover {
+  color: rgb(252, 215, 169);
+}
+
+.MainMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: rgb(252, 215, 169);
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.MainMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.MainMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(187px);
+  transform: translateX(187px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.MainMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(360px);
+  transform: translateX(360px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.MainMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(510px);
+  transform: translateX(510px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+
+.RegestrationMenu {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.RegestrationMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.0em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 150px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.RegestrationMenu a:hover {
+  color: rgb(252, 215, 169);
+}
+
+.RegestrationMenu .dot1 {
+  width: 6px;
+  height: 6px;
+  background: rgb(252, 215, 169);
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.RegestrationMenu a:nth-child(1):hover ~ .dot1 {
+  -webkit-transform: translateX(35px);
+  transform: translateX(35px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+.RegestrationMenu a:nth-child(2):hover ~ .dot1 {
+  -webkit-transform: translateX(190px);
+  transform: translateX(190px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}

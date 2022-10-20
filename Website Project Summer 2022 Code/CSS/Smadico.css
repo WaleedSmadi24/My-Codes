@@ -1,0 +1,145 @@
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+/* Header CSS Code */
+.LogoPhoto{
+    width:250px;
+    height:250px;
+}
+nav{
+    display: flex;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+.NavBar{
+    margin-left: 10%;
+    margin-top: 6%;
+}
+.RegBar{
+    margin-top: 6%;
+    margin-left: 30%;
+}
+.link{
+    color: rgb(252, 215, 169);
+    padding: 1rem;
+    margin-left: .5rem;
+    font: 600;
+}
+/* End of Header CSS Code */
+
+/* BackGround Main Photo CSS Code */
+.BackPhoto{
+    opacity: 40%;
+    width: 60%;
+    height: 700px;
+    margin-left: 20%;    
+}
+
+/* In Photo Text CSS Code */
+.inphototext{
+    color: rgb(252, 215, 169) ;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+}
+
+/* Footer CSS Code */
+footer{
+    color: rgb(252, 215, 169);
+    display: flex;
+    justify-content: space-around;
+    margin-left: 13%;
+}
+.FooterAbout{
+    margin-top: 1%;
+}
+.FooterCategories{
+    margin-top: 1%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+footer a {
+    color: rgb(252, 215, 169);
+    font-weight: 300;
+    font-size: 17px;
+}
+.FooterContact{
+    margin-top: 1%;
+    margin-right: 20%;
+}
+/* End Of Footer CSS Code */
+
+/* CopyRight CSS Code */
+.CopyRight{
+    color: rgb(252, 215, 169) ;
+    text-align: center;
+}
+
+@media (max-width:500px)
+{
+    nav,.RegBar,.NavBar{
+        display: flex;
+        flex-direction:column;
+        width:50%;
+        margin: auto;
+    }
+    nav{
+        border-bottom: 1px solid white;
+    }
+    h2{
+        margin-top: 1rem;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        font-size: 10px;
+    }
+    .LogoPhoto{
+        height: 100px;
+        width: 100px;
+        margin-left: 25%;
+    }
+    p{
+        font-size: 10px;
+    }
+    nav{
+        font-size: 10px;
+    }
+    .About20{
+        font-size: 10px;
+    }
+    .FooterCategories{
+        font-size: 10px;
+    }
+    .afooter{
+        font-size: 10px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .NavBar{
+        display: flex;
+    }
+
+    .BackPhoto{
+        width: 250px;
+        height: 200px;
+    }
+
+    .inphototext{
+        top: 52%;
+        left: 55%;
+    }
+}
